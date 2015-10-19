@@ -1,6 +1,6 @@
 <project name="my-project" default="dist" basedir=".">
 	<description>
-		simple example ant script
+		simple example ant script to build a jar
 	</description>
 <!--set global properties for this build-->
 <property name="src" location="src/main/java" />
@@ -9,7 +9,10 @@
 
 <target name="init" depends="clean">
 <!-- create the timestamp-->
-	<tstamp/>
+	<tstamp>
+		 <format property="time.stamp" pattern="yyyy-MM-dd_HH:mm:ss"/>
+	</tstamp>
+
 <!--create build directiry structure for the compile-->
 	<mkdir dir="${build}"/>
 </target>
