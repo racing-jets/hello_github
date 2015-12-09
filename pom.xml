@@ -1,0 +1,7 @@
+<!-- This change is to view in diff tool" -->
+<project> 
+<modelVersion>4.0.0</modelVersion>
+<groupId>org.sonatype.mavenbook</groupId>
+<artifactId>my-project</artifactId> 
+<version>1.0</version>
+</project>

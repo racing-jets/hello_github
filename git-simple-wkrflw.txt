@@ -16,3 +16,5 @@ git status
 git commit -m "Adding start text file"
 git status
 git push origin master
+
+git diftool HEAD filename
