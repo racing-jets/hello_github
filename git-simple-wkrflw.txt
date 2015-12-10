@@ -18,3 +18,5 @@ git status
 git push origin master
 
 git diftool HEAD filename
+
+git log --oneline --decorate --graph
