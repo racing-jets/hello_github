@@ -1,6 +1,6 @@
 <project name="my-project" default="dist" basedir=".">
 	<description>
-		simple example ant script to build a jar
+		simple example ant script to build a jar.
 	</description>
 <!--set global properties for this build-->
 <property name="src" location="src/main/java" />
