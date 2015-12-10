@@ -1,5 +1,7 @@
 The most useful git commands
-pere · 27th April, 2013
+================================================================
+Ref:
+
 
 Here there are some examples of git commands that I use often.
 
