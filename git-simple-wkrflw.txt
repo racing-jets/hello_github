@@ -22,3 +22,5 @@ git diftool HEAD filename
 git log --oneline --decorate --graph
 
 git remote add upsream <URL>
+
+git config --global alias.s "status"
