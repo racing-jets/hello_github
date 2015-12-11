@@ -236,3 +236,4 @@ patch < file.patch
 ############## Adding github jenkins webhook #############
 
 1) configure Jenkins service in GitHub
+2) Configure Jenkins GitHub config
