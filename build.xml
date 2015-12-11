@@ -7,6 +7,8 @@
 <property name="build" location="target/classes" />
 <property name="dist" location="target" />
 
+<!- global properties can be given form a file as well -->
+
 <target name="init" depends="clean">
 <!-- create the timestamp-->
 	<tstamp>
